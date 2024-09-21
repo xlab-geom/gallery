@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>GeometrieWerkstatt Gallery</title>
+    <link rel="stylesheet" type="text/css" href="style/style.css"/>
+    <link rel="icon" type="image/png" href="style/icon.png"/>
+    <script type="text/javascript" src="flipbook/flipbook.js"></script>
+  </head>
+
+  <body>
+
+    <header class='entry'>
+      <div class='gallery-heading'><a href='index.html'>GeometrieWerkstatt Gallery</a></div>
+      <div class='group-heading'>CMC Surfaces</div>
+    </header>
+
+    <nav class='entry'><figure class='group0'>
+      <a href='0000.html'>
+	<img src='resources/0000x.png' alt='' width='120' height='120'/>
+      </a>
+      <figcaption>Delaunay Surfaces</figcaption>
+    </figure><figure class='group0'>
+      <a href='0001.html'>
+	<img src='resources/0001x.png' alt='' width='120' height='120'/>
+      </a>
+      <figcaption>Roulettes</figcaption>
+    </figure><figure class='group0'>
+      <a href='0002.html'>
+	<img src='resources/0002x.png' alt='' width='120' height='120'/>
+      </a>
+      <figcaption>Bubbletons</figcaption>
+    </figure><figure class='group0'>
+      <a href='0003.html'>
+	<img src='resources/0003x.png' alt='' width='120' height='120'/>
+      </a>
+      <figcaption>Bifurcating Nodoids</figcaption>
+    </figure><figure class='group0'>
+      <a href='0004.html'>
+	<img src='resources/0004x.png' alt='' width='120' height='120'/>
+      </a>
+      <figcaption>Smyth Surfaces</figcaption>
+    </figure><figure class='group0'>
+      <a href='0005.html'>
+	<img src='resources/0005x.png' alt='' width='120' height='120'/>
+      </a>
+      <figcaption>Perturbed Delaunay</figcaption>
+    </figure></nav>
+
+    <section class='entry description'>
+      <div class='header-box'>
+	<h1>Roulettes of Conics</h1><div class='surface'></div>
+      </div>
+      <h2>Profile curves of Delaunay surfaces</h2>
+<p>The roulette of a conic, traced out by its focus, is the profile curve of a Delaunay surface [<a href='#ref1'>1</a>]. Roulettes of ellipses make unduloids, and those of hyperbola make nodoids. The major and minor axes of the conic determine the neck and bulge sizes of the Delaunay surface. The roulettes in these flipbooks are traced out at constant speed.</p>
+    </section>
+
+    <section class='entry resource'><figure class='flipbook group0'>
+      <canvas id=canvas-000100 width='600' height='300'>
+	</canvas>
+      <figcaption>Roulette of an ellipse. (Drag mouse on image.)</figcaption>
+      </figure><figure class='flipbook group0'>
+      <canvas id=canvas-000101 width='600' height='300'>
+	</canvas>
+      <figcaption>Roulette of a hyperbola. (Drag mouse on image.)</figcaption>
+      </figure><script type='text/javascript'>
+      flipbook.run('canvas-000100', 'resources/000100.dat' );
+    </script>
+<script type='text/javascript'>
+      flipbook.run('canvas-000101', 'resources/000101.dat' );
+    </script>
+
+    </section>
+
+<section class='entry reference'>
+  <h2>References</h2>
+  <ol>
+    <li id='ref1'><span class='author'>M. Kilian</span>, <span class='title'>On the associated family of Delaunay surfaces</span>, <span class='journal'>Proc. Amer. Math. Soc.</span> <span class='volume'>132</span> <span class='year'>(2004)</span>, <span class='number'>no. 10</span>, <span class='pages'>3075&#8212;3082</span> [<span class='mrnumber'><a href='http://www.ams.org/mathscinet-getitem?mr=2063129'>2063129</a></span>].</li>
+  </ol>
+</section>
+
+  </body>
+</html>

@@ -1,0 +1,218 @@
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Forum'), url(NotoSans/NotoSans-Regular.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: normal;
+  font-weight: bold;
+  src: local('Forum'), url(NotoSans/NotoSans-Bold.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: normal;
+  src: local('Forum'), url(NotoSans/NotoSans-Italic.ttf) format('truetype');
+}
+
+@font-face {
+  font-family: 'Noto Sans';
+  font-style: italic;
+  font-weight: bold;
+  src: local('Forum'), url(NotoSans/NotoSans-BoldItalic.ttf) format('truetype');
+}
+
+* {
+    margin:0;
+    padding 0;
+}
+
+body {
+    background-color: #202024;
+    color: #c0a0a0;
+    font-family: 'Noto Sans';
+    font-weight: normal;
+}
+
+a {
+    color: #c0a0a0;
+    text-decoration: none;
+    outline: 0;
+}
+
+nav figure {
+    background-color: #293135;
+}
+
+nav figure:active {
+    background-color: #404040;
+}
+
+header {
+    background-color: #293135;
+    padding-top: 10px;
+    padding-bottom: 16px;
+    padding-left: 12px;
+}
+
+/* ================ main =============== */
+
+header.main {
+    font-size: 150%;
+    font-weight: 400;
+}
+
+header.main .gallery-heading {
+}
+
+nav.main {
+}
+
+nav.main figure {
+    font-size: 12px;
+    width: 200px;
+    height: 224px;
+    display: inline-block;
+}
+
+nav.main figure figcaption {
+    font-size: 100%;
+    text-align: left;
+    padding-left: 4px;
+    padding-right: 4px;
+}
+
+/* ================ entry =============== */
+
+header.entry {
+    font-size: 150%;
+    font-weight: 400;
+}
+
+header.entry .gallery-heading {
+}
+header.entry .group-heading {
+    font-size: 150%;
+}
+
+
+nav.entry {
+    background-color: #293135;
+    padding-left: 16px;
+}
+
+nav.entry figure {
+    padding: 0;
+    width: 120px;
+    height: 140px;
+    display: inline-block;
+}
+nav.entry figure figcaption {
+    font-size: 80%;
+    text-align: left;
+
+    padding-left: 4px;
+    padding-right: 4px;
+
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+
+section.description {
+    width: 600px;
+    padding-top: 24px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+section.resource {
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-bottom: 10px;
+}
+
+section.reference {
+    width: 600px;
+    padding-top: 10px;
+    padding-left: 16px;
+    padding-bottom: 16px;
+}
+
+section.entry figure {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+    width: -webkit-min-content;
+    width: -moz-min-content;
+    width: min-content;
+    vertical-align: top;
+}
+section.entry figure img {
+}
+
+section.entry figure figcaption {
+    font-size: 90%;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+/*
+h1 {
+    font-weight: normal;
+    font-size: 250%;
+    font-weight: normal;
+}
+h2 {
+    font-weight: normal;
+    font-size: 150%;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+section.reference a {
+    text-decoration: underline;
+}
+*/
+
+h1 {
+    font-weight: normal;
+    font-size: 250%;
+    font-weight: normal;
+}
+h2 {
+    font-weight: normal;
+    font-size: 150%;
+    font-weight: normal;
+    margin-bottom: 6px;
+}
+
+section.reference a {
+    text-decoration: underline;
+}
+
+.header-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.surface a {
+    height: 20px;
+    background-color: #c04040;
+    padding: 2px;
+    margin: 1px;
+}
+
+
+/* ================ references =============== */
+
+.title {
+    font-style: italic;
+}
+.volume {
+    font-weight: bold;
+}
